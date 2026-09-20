@@ -1,0 +1,8 @@
+python-telegram-bot[job-queue,webhooks]==21.6
+google-auth==2.29.0
+google-auth-oauthlib==1.2.0
+google-api-python-client==2.131.0
+anthropic>=0.40.0
+google-generativeai==0.7.2
+Pillow==10.3.0
+python-dotenv==1.0.1
