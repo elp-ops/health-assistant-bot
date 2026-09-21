@@ -1,7 +1,7 @@
 """
 Photo/report handler.
 
-When Patient sends a photo or image document:
+When Jana sends a photo or image document:
 1. Download the image
 2. Run vision extraction (Claude or Gemini)
 3. Append a dated entry to the health Google Doc

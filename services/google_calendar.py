@@ -45,12 +45,12 @@ def event_exists_on_date(doctor: str, start_dt: datetime) -> bool:
     return False
 
 
-def create_appointment(doctor: str, date: str, time: str, patient: str = "Patient", location: str = "") -> dict:
+def create_appointment(doctor: str, date: str, time: str, patient: str = "Jana", location: str = "") -> dict:
     """
     Create a calendar event.
     date: DD-Mon (e.g. 15-Apr)
     time: HH:MM (e.g. 10:00)
-    patient: "Patient" or "Spouse"
+    patient: "Jana" or "Luis"
     location: optional address string
     Returns the created event dict.
     """

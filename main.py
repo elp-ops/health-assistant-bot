@@ -31,7 +31,7 @@ logger = logging.getLogger(__name__)
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text(
-        "Hi there. I'm Dr. Tony, your health assistant.\n\n"
+        "Hi Jana. I'm Dr. Tony, your health assistant.\n\n"
         "Here's what I can do:\n\n"
         "/appointment — add a doctor appointment\n"
         "/appointments — list upcoming appointments\n"

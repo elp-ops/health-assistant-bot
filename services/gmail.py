@@ -1,13 +1,13 @@
 """
 Gmail service.
-Sends notification emails to Admin via SMTP with an App Password.
+Sends notification emails to Elena via SMTP with an App Password.
 
 Setup:
   1. Enable 2-Step Verification on your Google account
   2. Go to myaccount.google.com > Security > App passwords
   3. Create an app password for "Mail"
   4. Add to .env: GMAIL_APP_PASSWORD=xxxx xxxx xxxx xxxx
-  5. Add to .env: GMAIL_SENDER=you@example.com
+  5. Add to .env: GMAIL_SENDER=elena.lpris@gmail.com
 """
 
 import logging
